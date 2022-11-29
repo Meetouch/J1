@@ -202,11 +202,11 @@
 			buildConfigurationList = DEA7D3DD2932292C0063E5C5 /* Build configuration list for PBXNativeTarget "Venue" */;
 			buildPhases = (
 				6EBBC083B57F3D2FAA29CD72 /* [CP] Check Pods Manifest.lock */,
+				DEA7D3EE29322A790063E5C5 /* DAO Autograph */,
 				DEA7D3CA293229290063E5C5 /* Sources */,
 				DEA7D3CB293229290063E5C5 /* Frameworks */,
 				DEA7D3CC293229290063E5C5 /* Resources */,
 				66E63EF7E51FD22E9EFE58B7 /* [CP] Embed Pods Frameworks */,
-				DEA7D3EE29322A790063E5C5 /* DAO Autograph */,
 			);
 			buildRules = (
 			);
