@@ -24,7 +24,7 @@ public struct OrderPlainObject {
     public let positions: [PositionPlainObject]
     
     /// Order discount value
-    public let discount: Double
+    public let discount: Double?
     
     /// Order created date
     public let createdAt: Date
@@ -36,7 +36,7 @@ public struct OrderPlainObject {
     
     /// Order total price with discount value
     var totalPriceWithDiscount: Double {
-        totalPrice * discount
+        totalPrice * (discount ?? 1)
     }
 }
 
